@@ -1,10 +1,12 @@
 {
   "name": "sito-mui-error-component",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "sito mui error component with react error boundary",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:npm": "babel src/ -d dist --copy-files",
+    "build:min": "BABEL_ENV=minify babel src/ -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,13 @@
   },
   "homepage": "https://github.com/SitoNumbis/sito-mui-error-component#readme",
   "dependencies": {
+    "@babel/core": "^7.20.7",
     "react-error-boundary": "^3.1.4",
     "some-javascript-utils": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-react": "^7.16.7",
+    "babel-preset-minify": "^0.5.2"
   }
 }

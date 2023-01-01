@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { ErrorBoundary as ReactErrorBoundary } from "react-error-boundary";
 
 // components
-import Error from "./src/Component";
+import Error from "./Component";
 
 const ErrorFallback = ({ error, resetErrorBoundary }) => (
   <Error onAction={resetErrorBoundary} text={error.message} />
