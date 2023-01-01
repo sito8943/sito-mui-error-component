@@ -1,6 +1,6 @@
 {
   "name": "sito-mui-error-component",
-  "version": "0.3.5",
+  "version": "0.3.7",
   "private": false,
   "description": "sito mui error component with react error boundary",
   "main": "dist/index.js",
