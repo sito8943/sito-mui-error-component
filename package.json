@@ -1,0 +1,30 @@
+{
+  "name": "sito-mui-error-component",
+  "version": "1.0.0",
+  "description": "sito mui error component with react error boundary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SitoNumbis/sito-mui-error-component.git"
+  },
+  "keywords": [
+    "@mui",
+    "react",
+    "error",
+    "boundary",
+    "component"
+  ],
+  "author": "SitoNumbis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SitoNumbis/sito-mui-error-component/issues"
+  },
+  "homepage": "https://github.com/SitoNumbis/sito-mui-error-component#readme",
+  "dependencies": {
+    "react-error-boundary": "^3.1.4",
+    "some-javascript-utils": "^0.2.1"
+  }
+}
