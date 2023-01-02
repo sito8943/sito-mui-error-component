@@ -16,6 +16,7 @@ const Error = (props) => {
       sx={{
         width: "100%",
         height: "500px",
+        display: "flex",
         alignItems: "center",
         justifyContent: "center",
         flexDirection: "column",
