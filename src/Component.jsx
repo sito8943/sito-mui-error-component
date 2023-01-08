@@ -2,8 +2,7 @@
 import PropTypes from "prop-types";
 
 // @mui icons
-import ErrorIcon from "@mui/icons-material/Error";
-import ReplayIcon from "@mui/icons-material/Replay";
+import { Error, Replay } from "@mui/icons-material";
 
 // @mui components
 import { Box, Typography, Button } from "@mui/material";
@@ -22,7 +21,7 @@ const Error = (props) => {
         flexDirection: "column",
       }}
     >
-      <ErrorIcon size="large" color="error" />
+      <Error size="large" color="error" />
       <Typography
         sx={{ marginTop: "15px" }}
         color="inherit"
@@ -37,7 +36,7 @@ const Error = (props) => {
           onClick={onAction}
           sx={{ marginTop: "15px" }}
         >
-          <ReplayIcon sx={{ marginRight: "15px" }} />
+          <Replay sx={{ marginRight: "15px" }} />
           {buttonText || "retry"}
         </Button>
       )}
