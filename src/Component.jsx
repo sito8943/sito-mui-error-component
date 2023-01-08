@@ -7,7 +7,7 @@ import { Error, Replay } from "@mui/icons-material";
 // @mui components
 import { Box, Typography, Button } from "@mui/material";
 
-const Error = (props) => {
+const ErrorComponent = (props) => {
   const { onAction, text, buttonText } = props;
 
   return (
@@ -44,13 +44,13 @@ const Error = (props) => {
   );
 };
 
-Error.defaultProps = {
+ErrorComponent.defaultProps = {
   onAction: undefined,
   text: undefined,
   buttonText: undefined,
 };
 
-Error.propTypes = {
+ErrorComponent.propTypes = {
   onAction: PropTypes.func,
   text: PropTypes.text,
   buttonText: PropTypes.text,
